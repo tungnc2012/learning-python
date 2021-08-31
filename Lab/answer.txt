@@ -1,0 +1,33 @@
+===============================Lab py-dictionaries==============================
+emails = {}
+
+emails['ashley'] = 'ashley@example.com'
+emails['craig'] = 'craig@example.com'
+emails['elizabeth'] = 'elizabeth@example.com'
+
+del emails['craig']
+
+emails['dalton'] = 'dalton@example.com'
+
+users = list(emails.keys())
+
+email_list = list(emails.values())
+
+pairs = list(emails.items())
+
+===============================Lab using-list======================================
+users = []
+
+users.append('kevin')
+users.append('bob')
+users.append('alice')
+
+users.remove('bob')
+
+rev_users = ['alice', 'kevin']
+
+users.insert(1, 'melody')
+
+users += ['andy', 'wanda', 'jim']
+
+center_users = users[2:4]
