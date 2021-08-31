@@ -2,8 +2,6 @@
 
 assert emails == {}, f"Expected `emails` to be {{}} but got: {repr(emails)}"
 # 2) Add 'ashley', 'craig', and 'elizabeth' to the emails dictionary without reassigning the variable.
-# emails = {'ashley': 'ashley@example.com', 'craig': 'craig@example.com', 'elizabeth': 'elizabeth@example.com'}
-
 
 assert emails == {
     "ashley": "ashley@example.com",
